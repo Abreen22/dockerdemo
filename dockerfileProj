@@ -1,0 +1,4 @@
+FROM devopsedu/webapp 
+ADD index1 /var/www/html
+RUN rm /var/www/html/index1.html
+CMD apachectl -D FOREGROUND
