@@ -1,4 +1,4 @@
 FROM devopsedu/webapp 
 MAINTAINER "Abreen"
-ADD index1 /var/www/html
+ADD index1.html /var/www/html
 CMD apachectl -D FOREGROUND
